@@ -19,6 +19,7 @@ public class MainFrame extends JFrame {
         setVisible(true);
     }
     
+    // To run the window in the same file as coded
     public static void main(String[] args) {
         MainFrame myFrame = new MainFrame();
         myFrame.init();
